@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* background-color: darkcyan; */
+}
+
+.main1 {
+  background-image: url("https://www.splitshire.com/wp-content/uploads/2014/11/SplitShire-03692-1800x1200.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+}
+
+.main1 h2 {
+  margin-top: 12rem;
+  font-size: 25px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+
+.main1 .link1 {
+  color: red;
+  text-decoration: none;
+}
+
+.main1 .link1:hover {
+  font-size: 18px;
+  color: red;
+  text-decoration: none;
+}
+
+.main1 .list {
+  margin-top: 10px;
+}
+
+.list ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 2rem;
+  display: inine;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.list ul li a:hover {
+  color: white;
+  text-decoration: none;
+  transform: scale(1.2);
+  color: orange;
+  border: 0px;
+  border-bottom: 2px solid orange;
+}
+
+.list ul li .hide:hover {
+  cursor: none;
+}
+
+/* Js section */
+
+.js__section .btn__time {
+  width: auto;
+  padding: 15px;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.js__section p {
+  color: whitesmoke;
+  font-size: 18px;
+  margin-top: 1rem;
+}
+
+.js__section .toggle__btn {
+  padding: 10px;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.js__section .myDIV {
+  margin-top: 1rem;
+  background-color: white;
+  text-align: center;
+  padding: 12px;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.display .btn__display {
+  padding: 10px;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  font-weight: bolder;
+  font-size: 1rem;
+}
